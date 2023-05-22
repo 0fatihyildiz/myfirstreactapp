@@ -1,3 +1,5 @@
+// props and emits
+
 type MyButtonProps = {
   count: number;
   onCount: (value: number) => void;

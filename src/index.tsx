@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import MyButton from './components/mybtn'
+import PageTitle from './components/PageTitle'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,8 +10,7 @@ function App() {
   return (
     <>
       <MyButton count={count} onCount={handleCount} />
-      <MyButton count={count} onCount={handleCount} />
-      <MyButton count={count} onCount={handleCount} />
+      <PageTitle />
     </>
   )
 }
